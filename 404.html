@@ -68,14 +68,13 @@ const dropdown = document.getElementById("dropdown");
 function renderMenu(user) {
     if (user) {
         dropdown.innerHTML = `
-            <a href="/profile">Profil</a>
-            <a href="/settings">Paramètres</a>
-            <a href="#" id="logout">Se déconnecter</a>
+            <a href="https;//blocplay-beta.github.io">BlocPlay</a>
+            <a href="#" id="logout">Logout</a>
         `;
     } else {
         dropdown.innerHTML = `
-            <a href="/login">Se connecter</a>
-            <a href="/signup">Créer un compte</a>
+            <a href="https://blocplay-beta.github.io">BlocPlay</a>
+            <a href="/login">Login</a>
         `;
     }
 }
